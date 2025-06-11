@@ -4,6 +4,7 @@ const AboutPage = () => {
     return(
         <div>
             <Header />
+          
             <h1>About page</h1>
              <h2 id="head1">About Vivekanand college</h2>
             <p>Vivekanand College stands as a beacon of knowledge and intrigity committed to delivering transformative education since its ensiption in [ year of estalibshment eg. 1980 ]. Located in the bustling heart of [ City / Area eg. Chembur, Mumbai ] our college has cnsistantly strived to upholh the highest standareds of academic rigor and ethical vuales.  </p>

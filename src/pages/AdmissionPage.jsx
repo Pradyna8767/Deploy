@@ -2,7 +2,7 @@ import React from "react"
 import Header from "../components/Header"
 
 
-const Admission = () => {
+const AdmissionPage = () => {
     return(
         <div>
                 <Header />
@@ -28,5 +28,5 @@ const Admission = () => {
     );
 };
 
-export default Admission
+export default AdmissionPage
 

@@ -1,9 +1,10 @@
 import {BrowserRouter , Route, Routes} from "react-router-dom"
 import HomePage from "./pages/HomePage"
 import AboutPage from "./pages/AboutPage"
-import Admission from "./pages/AdmissionPage"
-import Contact from "./pages/ContactPage"
-import Courses from "./pages/CoursesPage"
+
+import AdmissionPage from "./pages/AdmissionPage"
+import ContactPage from "./pages/ContactPage"
+import CoursesPage from "./pages/CoursesPage"
 
 
 
@@ -14,9 +15,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/aboutpage" element={<AboutPage />} />
-          <Route path="/admissionpage" element={<Admission/> } />
-          <Route path="/contactpage" element={<Contact />} />
-          <Route path="/coursespage" element={<Courses/>} />
+          <Route path="/admissionpage" element={<AdmissionPage/> } />
+          <Route path="/contactpage" element={<ContactPage/>} />
+          <Route path="/coursespage" element={<CoursesPage/>} />
          </Routes>
       </BrowserRouter>
     </div>

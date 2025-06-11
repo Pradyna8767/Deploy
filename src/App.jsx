@@ -3,7 +3,8 @@ import HomePage from "./pages/HomePage"
 import AboutPage from "./pages/AboutPage"
 import Admission from "./pages/AdmissionPage"
 import Contact from "./pages/ContactPage"
-import Courses from "../../../OJT-REACT-PROJECT/FirstProject/src/pages/Courses"
+import Courses from "./pages/CoursesPage"
+
 
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
           <Route path="/aboutpage" element={<AboutPage />} />
           <Route path="/admissionpage" element={<Admission/> } />
           <Route path="/contactpage" element={<Contact />} />
-          <Route path="/coursespage" element={<Courses />} />
+          <Route path="/coursespage" element={<Courses/>} />
          </Routes>
       </BrowserRouter>
     </div>

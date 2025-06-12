@@ -33,7 +33,7 @@ const HomePage = () => {
             <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
             <p>Ready to Explore our courses?</p>
 
-            <button id="explore">Explore Courses</button>
+            <button id="explore"><Link to='https://vivekanandcollege.ac.in'>Explore Courses</Link></button>
             <Footer/>
 
         </div>

@@ -1,11 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import '../pagecss/CoursesPage.css'
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header";
+
 
 const CoursesPage = () => {
     return (
         <div>
-            <Header />
-                      <h1 id="h1">Our Academic Programs</h1><br />
+            <Header/>
+               <h1 id="h1">Our Academic Programs</h1><br />
           <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
           <h3 id="h2">Discover Campus Life</h3>
           {/* <video src="http://vck.codewonders.in/assets/college-tour-FAmcnyfF.mp4" controls loop></video> */}
@@ -53,6 +57,7 @@ const CoursesPage = () => {
           <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p><br />
           <p>Have questions about a specific course?</p>
           <button type="button" id="button">Inquire About Courses</button>
+          <Footer/>
                   
         </div>
     );

@@ -1,11 +1,15 @@
+import React from "react"
+import Footer from "../components/Footer/Footer"
+import { Link } from "react-router-dom"
+import "../pagecss/AboutPage.css"
 import Header from "../components/Header"
 
 const AboutPage = () => {
     return(
-        <div>
+        <div className="div">
             <Header />
-          
-            <h1>About page</h1>
+            
+            <h1 id="h1">About page</h1>
              <h2 id="head1">About Vivekanand college</h2>
             <p>Vivekanand College stands as a beacon of knowledge and intrigity committed to delivering transformative education since its ensiption in [ year of estalibshment eg. 1980 ]. Located in the bustling heart of [ City / Area eg. Chembur, Mumbai ] our college has cnsistantly strived to upholh the highest standareds of academic rigor and ethical vuales.  </p>
             
@@ -26,6 +30,7 @@ const AboutPage = () => {
         
             <h2 id="head4">Our History</h2>
             <p>[Briefly describe the college's history - e.g., how it started, key milestones, growth over the years, famous alumni if any]. Our journey began with a vision to make quality education available to all, and we continue that legacy today.</p>
+            <Footer/>
         </div>
     )
 }

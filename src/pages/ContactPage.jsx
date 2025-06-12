@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "../pagecss/ContactPage.css"
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header";
 
 
@@ -6,7 +9,7 @@ const ContactPage = () => {
     return (
         <div>
             <Header />
-                        <h2 id="h1">Contact Us</h2>
+             <h2 id="h1">Contact Us</h2>
             <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
 
             <h2 id="h2">General Enquiries</h2><hr />
@@ -27,7 +30,7 @@ const ContactPage = () => {
 
             <h2 id="h5"><b>Send Us a Message</b></h2><hr />
             <p> [A contact form with fields for Name, Email, Subject, Message can be added here.] </p>
-            
+            <Footer/>
         </div>
     );
 };

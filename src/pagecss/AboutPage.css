@@ -1,0 +1,29 @@
+#h1{
+    align-items: center;
+    font-size: 30px;
+}
+
+#head1{
+    align-items: center;
+    font-size: 30px;
+}
+
+#head2{
+    align-items: left;
+    font-size: 20px;
+}
+
+#head3{
+    align-items: left;
+    font-size: 20px;
+
+}
+
+#head4{
+    align-items: left;
+    font-size: 20px;
+}
+.div{
+   background-color: aqua;
+   text-align: center;
+}

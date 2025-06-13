@@ -10,8 +10,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 import Footers from "./components/Footer/Footers";
 import { useState } from "react";
-import DeveloperInfoPopup from "./components/DeveloperInfo/developerInfoPopup";
-import Header from "./components/Header";
+import DeveloperInfoPopup from "./components/DeveloperInfo/DevloperInfoPopup";
+
+
 
 
 
@@ -38,7 +39,7 @@ const App = () => {
       <div>
        <BrowserRouter>
           <Routes>
-            <Route path="/homepage" element={<HomePage/>} />
+            <Route path="/" element={<HomePage/>} />
             <Route path="/aboutpage" element={<AboutPage />} />
             <Route path="/admissionpage" element={<AdmissionPage/> } />
             <Route path="/contactpage" element={<ContactPage/>} />

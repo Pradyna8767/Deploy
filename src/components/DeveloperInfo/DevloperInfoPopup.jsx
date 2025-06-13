@@ -1,6 +1,5 @@
 // Example structure for a React component (conceptual)
-import './DevloperInfoPopup.css'
-
+import './DevloperInfoPopup.css';
 function DeveloperInfoPopup({ show, onClose, studentName, studentPhotoUrl, uniqueMessage }) {
   if (!show) {
     return null; // Don't render if not visible

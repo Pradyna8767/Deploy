@@ -6,7 +6,7 @@ const Header = () => {
         <header id="head">
             <h2 id="vivek">Vivekanand College</h2>
             <nav id="nav">
-                <Link to="/homepage" className="color"><b> Home </b></Link>
+                <Link to="/" className="color"><b> Home </b></Link>
                 <Link to="/aboutpage" className="color"><b> About </b></Link>
                 <Link to="/admissionpage" className="color"><b> Admission </b></Link>
                 <Link to="/contactpage" className="color"><b> Contact </b></Link>

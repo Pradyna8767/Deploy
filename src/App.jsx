@@ -1,7 +1,4 @@
 import React from "react";
-import './App.css'
-
-import Header from "./components/Header";
 
 import AboutPage from "./pages/AboutPage";
 
@@ -14,7 +11,7 @@ import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 import Footers from "./components/Footer/Footers";
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/developerInfoPopup";
-
+import Header from "./components/Header";
 
 
 

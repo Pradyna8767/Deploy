@@ -17,7 +17,7 @@ const HomePage = () => {
                     <button type="button" id="button"><a href="/admissionpage">Apply Now</a></button>
                 </div>
 
-                <div id="coll">
+                <div id="d">
                     <p className="para2"> ** vivekanand College ** is a premier educational institution dedicated to fostering academic execellance, innovation and holistic development. Established in [ year of Establishment eg. 1980 ] we have proudly served generations of students, empowering them to achieve their full potentional.</p>
                     <p className="para2"> At vivekanand college, we believe in a vibrant learning environment that extends beyound textbooks. Our state-of-the art facilities, experienced faculty and diverse student comuunity create a unique ecosystem where curiosty thrives and future leaders are shaped.</p>
 
@@ -30,7 +30,7 @@ const HomePage = () => {
                     <p className="para"><span className="arrow"></span> **Strong Placement** Execullent carrer oppourtunities with laeding compnies.</p>
                     <h2 id="h4">Campus Life and Facilities</h2> 
 
-                    <img id="img" src="/Image/one.jpeg "/>
+                    <img id="img" src="/Image/one.jpeg" />
                     <img id="img" src="/Image/two.jpeg"  />
 
                     <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>

@@ -1,6 +1,7 @@
 #h1{
     align-items: center;
     font-size: 30px;
+    color: black;
 }
 
 #head1{
@@ -24,6 +25,5 @@
     font-size: 20px;
 }
 .div{
-   background-color: aqua;
    text-align: center;
 }

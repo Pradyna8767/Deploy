@@ -1,9 +1,26 @@
 #vivek {
     text-align: left;
     font-size: 40px;
+    color: white;
 }
 
 #nav {
     font-size: 20px;
     text-align: right;
+}
+#head {
+    background-color: blue;
+}
+
+.color {
+    color: rgb(242, 234, 234);
+    text-align: start;
+}
+
+.col {
+    color:white;
+}
+
+#now {
+    background-color: rgb(16, 248, 16);
 }

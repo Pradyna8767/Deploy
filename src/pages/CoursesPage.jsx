@@ -1,21 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../pagecss/CoursesPage.css'
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/Footer/Footers";
 import Header from "../components/Header";
 
 
 const CoursesPage = () => {
     return (
-        <div>
+        <div id="page">
             <Header/>
-               <h1 id="h1">Our Academic Programs</h1><br />
-          <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
-          <h3 id="h2">Discover Campus Life</h3>
-          {/* <video src="http://vck.codewonders.in/assets/college-tour-FAmcnyfF.mp4" controls loop></video> */}
-          <hr />
+              <h1 id="h1">Our Academic Programs</h1><br />
+              <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
+              <h3 id="h2">Discover Campus Life</h3>
+              {/* <video src="http://vck.codewonders.in/assets/college-tour-FAmcnyfF.mp4" controls loop></video> */}
+              <hr />
             
-          <h2 id="h3">Undergraduate Programs (UG)</h2><hr />
+              <h2 id="h3">Undergraduate Programs (UG)</h2><hr />
           <li>
             <ol><b>Bachelor of Science (B.Sc.)</b></ol>
             <ol>

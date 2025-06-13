@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../pagecss/ContactPage.css"
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/Footer/Footers";
 import Header from "../components/Header";
 
 
 const ContactPage = () => {
     return (
-        <div>
+        <div id="tact">
             <Header />
              <h2 id="h1">Contact Us</h2>
             <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>

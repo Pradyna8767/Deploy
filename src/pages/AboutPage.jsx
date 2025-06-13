@@ -1,5 +1,5 @@
 import React from "react"
-import Footer from "../components/Footer/Footer"
+import Footer from "../components/Footer/Footers"
 import { Link } from "react-router-dom"
 import "../pagecss/AboutPage.css"
 import Header from "../components/Header"

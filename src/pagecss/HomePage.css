@@ -1,7 +1,7 @@
 #container {
     background-image: url(/Image/cointanier.jpg) ;
     background-size: 1400px;
-    padding: 90px;
+    padding: 40px;
 }
 
 #h1 {
@@ -32,9 +32,18 @@
 
 #explore {
     background-color: aquamarine;
+    align-items: center;
 }
 
 #img {
     height: 300px;
     width: 500px;
+}
+
+#start {
+    padding: 50pc;
+}
+
+#coll {
+    text-align: left;
 }

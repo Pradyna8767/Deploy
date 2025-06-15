@@ -17,8 +17,23 @@ const AdmissionPage = () => {
 
             <h2 id='h2'>Eligibility Criteria for Undergraduate Programs</h2><hr/><br />
 
-     
+            <table>
+                <tr id='tr'>
+                    <td>Program</td> <td>Minimum Qualification</td> <td>Required Subjects</td> <td>Minimum Marks (%)</td>
+                </tr>
 
+                <tr id='tr'>
+                     <td>B.Sc. Computer Science</td> <td>10+2 (or equivalent)</td> <td>  Physics, Chemistry, Maths</td> <td>50%</td>
+                </tr>
+
+                <tr id='tr'>
+                    <td>B.Com. Accounting & Finance</td> <td>10+2 (or equivalent)</td> <td>Commerce Stream</td> <td>45%</td>
+                </tr>
+
+                <tr id='tr'>
+                    <td>B.A. English Literature</td> <td>10+2 (or equivalent)</td> <td> Any Stream</td> <td>40%</td>
+                </tr>
+            </table>
             <h2 id="h3">Application Process</h2><hr /><br />
             <ol>
                 <li><b>Online Application:</b>Fill out the application form available on our portal.</li>

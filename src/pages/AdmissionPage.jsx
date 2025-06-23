@@ -3,22 +3,23 @@ import { Link } from "react-router-dom";
 import "../pagecss/AdmissionPage.css"
 
 import Footer from "../components/Footer/Footers";
-import Header from "../components/Header";
+import Headers from "../components/Headers";
 
 
 
 const AdmissionPage = () => {
     return(
         <div id="mission">
-            <Header />
-                <h2 id='h1'>Admissions at Vivekanand College</h2><br />
-            <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p><br />
-            <p>Please review the eligibility criteria and key dates below for the upcoming academic year. For any queries, feel free to contact our admissions office.</p><br />
+            <Headers />
+            <h2 id='at'>Admissions at Vivekanand College</h2>
+            <p className="para3">Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p><br />
+            <p className="para3">Please review the eligibility criteria and key dates below for the upcoming academic year. For any queries, feel free to contact our admissions office.</p><br />
 
-            <h2 id='h2'>Eligibility Criteria for Undergraduate Programs</h2><hr/><br />
+            <hr />
+            <h2 id="at">Eligibility Criteria for Undergraduate Programs</h2>
 
-            <table>
-                <tr id='tr'>
+            <table className="mini">
+                <tr id="tr">
                     <td>Program</td> <td>Minimum Qualification</td> <td>Required Subjects</td> <td>Minimum Marks (%)</td>
                 </tr>
 
@@ -34,7 +35,9 @@ const AdmissionPage = () => {
                     <td>B.A. English Literature</td> <td>10+2 (or equivalent)</td> <td> Any Stream</td> <td>40%</td>
                 </tr>
             </table>
-            <h2 id="h3">Application Process</h2><hr /><br />
+
+            <hr />
+            <h2 id="at">Application Process</h2><hr />
             <ol>
                 <li><b>Online Application:</b>Fill out the application form available on our portal.</li>
                 <li><b>Document Submission:</b>Upload scanned copies of required documents (mark sheets, ID proof, etc.).</li>
@@ -43,8 +46,7 @@ const AdmissionPage = () => {
                 <li><b>Fee Payment:</b> Complete the admission by paying the required fees.</li>
             </ol>
 
-            <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="/coursespage">Courses page</a> or <a href="/contactpage">Contact us</a> directly.</p>
-            <Footer/>
+            <p className="para3">For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="/coursespage">Courses page</a> or <a href="/contactpage">Contact us</a> directly.</p>
         </div>
     );
 };

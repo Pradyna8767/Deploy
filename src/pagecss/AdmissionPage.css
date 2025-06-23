@@ -1,18 +1,23 @@
-#h1{
-    text-align: center;
+#mission {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: aqua;
+}
+
+#at {
+    color: black;
     font-size: 30px;
+    text-align: center;
 }
 
-#h2{
-    text-align: left;
+.para3 {
     font-size: 20px;
 }
 
-#h3{
-    text-align: left;
-    font-size: 20px;
+.mini {
+    text-align: center;
 }
 
-#tr{
+#tr {
     border-color: black;
 }

@@ -1,55 +1,55 @@
-#container {
-    background-image: url(/Image/cointanier.jpg) ;
-    background-size: 1400px;
-    padding: 40px;align-items: center;
-
-
+/* src/pages/Home/Home.css */
+.wel {
+   background-image: url(/Image/hero-background.jpg);
+   background-size: 1000px;
 }
 
 #h1 {
-    text-align: center;
-    font-size: 30px;
-    color: white;
+   color: white;
+   font-size: 50px;
 }
 
 #h2 {
+    color: white;
     text-align: center;
-    font-size: 20px;
-    color: rgb(243, 236, 237);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#button {
-    background-color: rgb(240, 235, 235);
+#apply {
+   margin-left: 500px;
+}
+
+#now {
+   font-size: 25px;
+}
+
+.para {
+   text-align: center;
 }
 
 #h3 {
-    text-align: left;
-    font-size: 20px;
+   text-align: center;
+   font-size: 30px;
 }
 
 #h4 {
-    text-align: left;
-    font-size: 20px;
+   text-align: center;
+   font-size: 30px;
 }
 
-#explore {
-    background-color: aquamarine;
-    align-items: center;
+#campus {
+   height: 500px;
+   width: 500px;
+}
+#holding {
+   height: 500px;
+   width: 500px;
 }
 
-#img {
-    height: 300px;
-    width: 500px;
-}
-
-#start {
-    padding: 50pc;
-}
-
-#d {
-    align-items: center;
-}
-
-#button {
-    align-items: center;
+.home {
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: aqua;
 }

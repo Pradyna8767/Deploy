@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../pagecss/Homepage.css"
+// import "../pagecss/Homepage.css"
+import "./Homepage.css"
 import Headers from "../components/Headers";
 
 
